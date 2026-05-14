@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SEO Performance Dashboard - SI Group</title>
+  <meta name="description" content="SEO performance dashboard for sigroup.vn" />
+  <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">S</div>
+        <div>
+          <div class="brand-title">Báo cáo SEO</div>
+          <div class="brand-subtitle">Performance Hub</div>
+        </div>
+      </div>
+      <nav id="nav" class="nav"></nav>
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">Báo cáo chi tiết</div>
+        <p>Theo dõi hiệu suất SEO, lead và cơ hội tối ưu theo chương trình.</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <div class="domain">sigroup.vn</div>
+          <h1 id="pageTitle">Báo cáo tổng quan SEO theo chương trình</h1>
+          <p class="updated">Theo dữ liệu GA4 & Google Search Console: 01/05/2025 - 11/05/2026</p>
+        </div>
+        <div class="filters">
+          <select><option>This year</option><option>Last 28 days</option><option>This month</option></select>
+          <select><option>Previous period</option><option>Same period last year</option></select>
+          <select><option>All devices</option><option>Desktop</option><option>Mobile</option></select>
+          <button class="btn secondary">Refresh Data</button>
+          <button class="btn primary">Export PDF</button>
+        </div>
+      </header>
+
+      <section id="content"></section>
+    </main>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
